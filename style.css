@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/friends.jpg);
+    background-size: cover;
+}
+
+.box{
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.4);
+    box-shadow: 1px 1px 2px #c4c2bcef;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.box h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    align-self: auto;
+}
+
+.stringVal{
+    position: relative;
+}
+
+.box input[type="text"]{
+    font-size: 20px;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid lightcyan;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: #fff;
+    border-radius: 24px;
+    transition: all .2s ease-in;
+}
+
+.box input[type="text"]:focus{
+    width: 250px;
+    border-color: cyan;
+}
+
+.wrappper{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn{
+    border: 0;
+    background-color: orangered;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid lightcoral;
+    padding: 14px 35px;
+    font-size: 18px;
+    color: whitesmoke;
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: aqua;
+}
