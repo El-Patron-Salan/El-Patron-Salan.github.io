@@ -24,7 +24,7 @@ function whoAreYou(nickname){
             alert("Siemanko! Nie wiem czy oglądałeś, ale na pewno spodoba Ci się Szeregowiec Dolot ;)");
             window.location.href = "roll.html";
             break;
-        case 'unknown':
+        case 'kochanek':
             window.location.href = "roll.html";
             break;
         default:
