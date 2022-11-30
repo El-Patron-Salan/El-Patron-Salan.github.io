@@ -6,9 +6,15 @@
     box-sizing: border-box;
 }
 
-body{
+#validation-page{
     font-family: "Montserrat", sans-serif;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/friends.jpg);
+    background-size: cover;
+}
+
+#draw-page{
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/synthwave.gif');
     background-size: cover;
 }
 
@@ -85,5 +91,30 @@ body{
 }
 
 #btn:hover{
-    background-color: aqua;
+    background-color: cyan;
+}
+
+#draw-btn{
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #440BD4;
+    padding: 50px 100px;
+    font-size: 60px;
+    color: whitesmoke;
+    border-radius: 100px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#draw-btn:hover{
+    background-color: #E92EFB;
 }
